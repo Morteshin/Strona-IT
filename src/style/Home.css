@@ -1,0 +1,10 @@
+.przykladowe{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 22%;
+    margin: auto;
+    height: 200px;
+}
