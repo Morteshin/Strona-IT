@@ -31,10 +31,10 @@ import FAQ from './pages/FAQ'
 
 
   return (
-    <>
+    <div>
     <Menu />
     {component}
-    </>
+    </div>
   )
  }
 

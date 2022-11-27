@@ -1,6 +1,7 @@
 import './style/Menu.css'
 export default function Menu(){
-  return <nav className='menu'>
+  return( 
+  <nav className='menu'>
     <a href='/' className='main-page'>Home</a>
     <ul>
       <CustomLink href="/News">News</CustomLink>
@@ -9,6 +10,7 @@ export default function Menu(){
       <CustomLink href="/Login">Login</CustomLink>
     </ul>
   </nav>
+  )
 }
 
 function CustomLink ({href, children, ...props}){

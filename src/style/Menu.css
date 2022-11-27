@@ -1,43 +1,31 @@
-* {
-    box-sizing: border-box;
-}
- .container{
-    margin: 1rem;
-    text-align: center;
- }
-body{
-    margin: 0;
-}
-.mainHome{
-    display: flex;
-    flex-direction: row;
-}
 .menu{
+    position: absolute;
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
+    height: 5%;
+    width: 100%;
+    text-align: center;
 }
 .main-page{
     font-size: 2rem;
 }
+ul *{
+    font-size: 1.1rem;
+}
 .menu ul{
-    padding: 0;
-    margin: 0;
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 .menu a{
-    color: inherit;
+    color: white;
     text-decoration: none;
     height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
 }
 .menu li.active{
     background-color: red;

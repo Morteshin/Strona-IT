@@ -1,3 +1,4 @@
+import '../style/FAQ.css'
 export default function FAQ(){
     return(
     <div className="MainFAQ">

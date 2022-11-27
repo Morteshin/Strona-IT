@@ -1,7 +1,8 @@
+import '../style/Login.css'
 export default function Login(){
     return (
     
-    <div className="Logowanie">
+    <div className="MainLogin">
         <label>Login: </label>
          <input type="text" placeholder="Login" required className="Login"></input>
          <br></br>
