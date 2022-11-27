@@ -1,3 +1,12 @@
 export default function Events(){
-    return <h1>Events</h1>
+    return( 
+     <div>
+    <h1>Events</h1>
+    <a href="/AddingEvent">
+        <button>
+        Add Your Event
+        </button>
+    </a>
+    </div>
+    )
 }

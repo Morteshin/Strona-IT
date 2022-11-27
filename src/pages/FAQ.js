@@ -1,3 +1,7 @@
 export default function FAQ(){
-    return <h1>FAQ</h1>
+    return(
+    <div className="MainFAQ">
+    <h1>FAQ</h1>
+    </div>
+    )
 }
